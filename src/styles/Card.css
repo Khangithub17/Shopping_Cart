@@ -1,0 +1,41 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-template-rows: auto;
+}
+.cards{
+    width: 250px;
+    padding: 20px;
+
+}
+.cards:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    cursor: pointer;
+
+
+}
+.image-box img{
+   width: 150px;
+   height: 200px;
+    margin: auto;
+}
+.details button{
+
+    background-color: skyblue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.details button:hover{
+    background-color: #00bfff;
+    transition: 0.5s;
+}
+
